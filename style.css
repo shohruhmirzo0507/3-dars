@@ -1,0 +1,83 @@
+@font-face{
+    font-family: "laylo";
+    src: url("./Dancing_Script/static/DancingScript-SemiBold.ttf")
+}
+@font-face {
+    font-family: yul;
+    src: url("./Freehand/Freehand-Regular.ttf");
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    color: red;
+    font-size: 5vw;
+    font-family: laylo;
+}
+h3{
+    font-family: yul;
+}
+.text{
+    color: blue;
+    font-size: 28px;
+    font-weight: 100;
+    font-style: italic;
+    /* text-decoration: dashed underline; */
+    word-spacing: 30px;
+letter-spacing: 10px;
+line-height: 2;
+}
+/* 1rem=16px */
+.lorem{
+    font-size: 5rem;
+}
+
+.container{
+    width: 800px;
+    height: 60vh;
+    border: 1px solid red;
+    margin: auto;
+}
+
+.box{
+    width: 50%;
+    height: 50px;
+    background: blue;
+}
+
+.box2{
+    width: 50vw;
+    height: 50px;
+    background: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
